@@ -1,2 +1,3 @@
 # chocolate-attic-website
-a restaurant /café website
+a restaurant /café website 
+using HTML & CSS & JavaScript
