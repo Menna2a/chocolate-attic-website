@@ -1,0 +1,240 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Gwendolyn:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200&display=swap');
+body {
+    margin:0;
+    background: url("BB.jpeg");
+}
+#navbar {
+    z-index:1;
+    
+    width: 100%;
+    height: 50px;
+    background: #d6714b;
+    
+    font-size: 0;
+}
+#navbar a {
+     font-family: 'Readex Pro', sans-serif;
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+     line-height: 40px;
+     z-index: 1;
+     display: inline-block;
+     text-align: center;
+}
+
+#navbar a:hover {
+     background-color: #c3d8d7;
+     color: #291d1a;
+     border-radius: 15px;
+     height: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.sticky + .content {
+        padding-top: 60px;
+
+}
+
+a:nth-child(1) {
+    width: 220px;
+}
+
+a:nth-child(2) {
+        width: 300px;
+    }
+a:nth-child(3) {
+    width: 300px;
+}
+a:nth-child(4) {
+    width: 200px;
+}
+a:nth-child(5) {
+    width: 310px;
+}
+#background {
+    z-index:-1;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 3500px;
+    height: 1000px;
+    background-image: url("menutemp.jpg");
+    background-repeat:repeat-y;
+    
+}
+#backgroundf {
+    z-index: -1;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 3500px;
+    height: 1370px;
+    background-image: url("menutemp.jpg");
+    background-repeat: repeat-y;
+}
+#backgroundd {
+    z-index: -1;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 3500px;
+    height: 2400px;
+    background-image: url("menutemp.jpg");
+    background-repeat: repeat-y;
+}
+#backgroundc {
+    z-index: -1;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 3500px;
+    height: 1450px;
+    background-image: url("menutemp.jpg");
+    background-repeat: repeat-y;
+}
+/* font-family: 'Cookie', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Gwendolyn', cursive; */
+h2 {
+    position: relative;
+    left: 250px;
+    top: 45px;
+    color: #c9a063;
+    font-size: 55px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+#h2-1 {
+    position: relative;
+    left: 25px;
+    top: 5px;
+    color: #c9a063;
+    font-size: 80px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+#h2-2 {
+    position: relative;
+    left: 75px;
+    top: 10px;
+    color: #c9a063;
+    font-size: 80px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+img {
+    border-radius: 50%;
+}
+ img:hover {
+        box-shadow: 0 0 8px 3px rgb(255, 204, 153);
+  }
+h3 {
+    position: relative;
+    left: 100px;
+    top: -30px;
+    color: #c9a063;
+    font-size: 30px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+#h3-1 {
+    position: relative;
+    left: -10px;
+    top:300px;
+    color: #c9a063;
+    font-size: 30px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+
+#item1 {
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+#item1-1 {
+    position: relative;
+    left: 100px;
+    top: -40px;
+}
+#item2 {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+#item2-1 {
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+#item3-1 {
+    position: relative;
+    left: 100px;
+    bottom: -260px;
+}
+#item3 {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+#item4  {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+#item5 {
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+figcaption {
+    position: relative;
+    left: 150px;
+    top: -130px;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Source Serif 4', sans-serif;
+    
+}
+h4 {
+    color: #c9a063;
+}
+hr {
+    width: 10%;
+    height: 5px;
+    border-radius: 50%;
+    margin-left: 295px;
+    margin-right: 60px;
+    background-color: #c9a063;
+    border: 0 none;
+    opacity: 0.5;
+}
+footer {
+    align-items: center;
+    background: #d6714b;
+    color: white;
+    display: flex;
+    font: 'Source Serif 4', sans-serif;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 15px;
+    z-index:1;
+}
+.fnav{
+    display: flex;
+    flex-direction: column;  
+    color:wheat;
+}
+.fnav a{
+    color: white;
+    margin: 5px;
+    text-decoration:none;
+}
+#email a {
+    color: white;
+    text-decoration: none;
+}

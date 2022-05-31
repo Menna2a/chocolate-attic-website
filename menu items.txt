@@ -1,0 +1,46 @@
+BEVERAGES
+- Fresh Juice 
+  Orange juice    30 LE
+  Mango Juice     30 LE
+  Strawberyy Juice 3O LE
+  Special Cocktail 45 Le
+- Soft Drinks
+  Red Bull      40 LE
+  Mineral Water  17 LE
+  Lemon Sparkling Water 40 LE
+DESSERTS
+- Waffles
+  Maple syrup Waffle
+  Berries Waffle
+  Oreo Cream Waffles
+  Nutella Waffles
+  Add:
+   caramel syrup
+   scoop of ice cream
+- French Crepe
+  Butter and Cinnamon Crepe 65 LE
+  Banana Crepe 75 LE
+  Lotus Crepe  88 LE
+  Fettutchini Crepe 100 LE
+  Nutella Crepe 75 LE
+  Add:
+   strawberry syrup 10 LE
+   caramel syrup    10 LE
+   scoop of ice cream 20 LE
+- Ice Cream
+  Minis Mix  130 LE
+  Kinder     45 LE
+  Vanilla with Fruits 55 LE
+  Oreo  4O LE
+  Pistachio 50 LE
+  Dark Chocolate 4O LE
+- Pancakes
+  Blueberyy double pancakes 100 LE
+  Chocolate chip pancakes  110 LE
+  Cinnamon Pancakes  80 LE
+  Nutella Pancakes  85 LE
+  Add:
+   strawberry syrup 10 LE
+   caramel syrup    10 LE
+   scoop of ice cream  20 LE
+COFFE

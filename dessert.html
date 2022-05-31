@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Chocolate Attic</title>
+    <link rel="icon" href="l4.png" type="image/x-icon">
+    <link rel="stylesheet" href="MenuCss.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="chocoattic.html"> Home </a>
+        <a href="Menu.html">Soft Drinks</a>
+        <a href="fresh.html">Fresh Juices</a>
+        <a href="dessert.html">Desserts</a>
+        <a href="coffee.html">Coffee</a>
+    </div>
+    <div id="backgroundd">
+        <div class="title">
+            <div id="h2-1">
+                <h2><span>Desserts Menu</span></h2>
+            </div>
+        </div>
+        <hr />
+        <h3> French Crepe </h3>
+        <div id="item1-1">
+            <figure>
+                <img src="buttercrepe.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+
+
+                        <h4>Plain French Crepe ................................................................................................. 65 LE</h4>
+                        <p>
+                            Served with icing sugar .
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+
+
+        <div id="item2-1">
+            <figure>
+                <img src="nutellacrepe.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+                        <h4>Nutella French Crepe ............................................................................................. 80 LE</h4>
+                        <p>
+                            Served with strawberry or bananas.
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+        <div id="item2-1">
+            <figure>
+                <img src="fettuccinecrepe.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+                        <h4>Chocolate Fettuccine Crepe ................................................................................ 85 LE</h4>
+                        <p>
+                            Served with a scoop of our special vanilla<br />
+                            or chocolate ice cream.
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+
+        <div id="item2-1">
+            <figure>
+                <img src="maplewaffel.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+                        <h4>Mapel Syrup Waffles ............................................................................................. 60 LE </h4>
+                        <p>
+                            Topped with maple syrup and butter.
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+        <div id="h3-1">
+            <h3> Pancakes </h3>
+        </div>
+        <div id="item3-1">
+            <figure>
+                <img src="bbpancakes.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+                        <h4>BlueBerry Pancakes ............................................................................................ 75 LE</h4>
+                        <p>
+                            Our special blueberry dough and topped with <br />
+                            red and blue berries.
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+
+        <div id="item3-1">
+            <figure>
+                <img src="ccpancake.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+                        <h4>Chocolate Chip Pancake ................................................................................... 90 LE</h4>
+                        <p>
+                            Served witha layer of wipped cream and hazelnuts.
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+
+
+
+        <div id="item3-1">
+            <figure>
+                <img src="cinnamonpancakes.jpg" height="140" width="130" />
+                <div class="description">
+                    <figcaption>
+                        <h4>Cinamon Roll Pancakes ................................................................................. 80 LE</h4>
+                        <p>
+                            Our special.<br />
+                            Topped with any syrup of your choice.
+                        </p>
+                    </figcaption>
+                </div>
+            </figure>
+        </div>
+
+
+
+
+    </div>
+    <footer>
+        <div>The Chocolate Attic </div>
+        <div> Established 2018 </div>
+        <div class="fnav">
+            <a href=""> About Us</a>
+            <div id="email">
+                <a href="mailto:ChocoAttic@gmail.com">Send an email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function () { fixFunction() }; //onscroll fn and assign js fn
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop; //returns the top position
+
+        function fixFunction() {  //return on vertical axis
+
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+</html>

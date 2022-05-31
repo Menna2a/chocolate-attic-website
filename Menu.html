@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Chocolate Attic</title>
+    <link rel = "icon" href="l4.png" type = "image/x-icon">
+    <link rel="stylesheet" href="MenuCss.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="chocoattic.html"> Home </a>
+        <a href="Menu.html">Soft Drinks</a>
+        <a href="fresh.html">Fresh Juices</a>
+        <a href="dessert.html">Desserts</a>
+        <a href="coffee.html">Coffee</a>
+    </div>
+        <div id="background">
+            <div class="title">
+                <h2><span>Soft Drinks Menu</span></h2>
+            </div>
+            <hr />
+
+            <div id="item1">
+                <figure>
+                    <img src="sparkling.jpg" height="150" width="140" />
+                    <figcaption>
+                        <h4>Lemon Sparkling Water .................................................................................... 45 LE </h4>
+                        <p>
+                            Served with ice and lemon slices.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div id="item2">
+                <figure>
+                    <img src="red.jpg" height="150" width="140" />
+                    <figcaption>
+                        <h4>RedBull ............................................................................................................... 40 LE </h4>
+                        <p>
+                            Sugar Free RedBull is available too.<br />
+                            Served with ice
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+
+            <div id="item3">
+                <figure>
+                    <img src="w.jpg" height="150" width="140" />
+                    <figcaption>
+                        <h4>Mineral Water ................................................................................................ 17 LE </h4>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+   <footer>
+       <div>The Chocolate Attic </div>
+       <div> Established 2018 </div>
+       <div class="fnav">
+           <a href=""> About Us</a>
+           <div id="email">
+               <a href="mailto:ChocoAttic@gmail.com">Send an email</a>
+           </div>
+       </div>
+   </footer>
+    
+
+    <script>
+        window.onscroll = function () { fixFunction() }; //onscroll fn and assign js fn
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop; //returns the top position
+
+        function fixFunction() {  //return on vertical axis
+
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+</html>
